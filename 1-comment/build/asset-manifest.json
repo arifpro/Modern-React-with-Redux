@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Modern-React-with-Redux/1-comment/build/static/js/main.1c69b9bd.chunk.js",
-    "main.js.map": "/Modern-React-with-Redux/1-comment/build/static/js/main.1c69b9bd.chunk.js.map",
+    "main.js": "/Modern-React-with-Redux/1-comment/build/static/js/main.79c8647c.chunk.js",
+    "main.js.map": "/Modern-React-with-Redux/1-comment/build/static/js/main.79c8647c.chunk.js.map",
     "runtime-main.js": "/Modern-React-with-Redux/1-comment/build/static/js/runtime-main.eca89143.js",
     "runtime-main.js.map": "/Modern-React-with-Redux/1-comment/build/static/js/runtime-main.eca89143.js.map",
     "static/css/2.f713574b.chunk.css": "/Modern-React-with-Redux/1-comment/build/static/css/2.f713574b.chunk.css",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.eca89143.js",
     "static/css/2.f713574b.chunk.css",
     "static/js/2.d9e8973e.chunk.js",
-    "static/js/main.1c69b9bd.chunk.js"
+    "static/js/main.79c8647c.chunk.js"
   ]
 }
