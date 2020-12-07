@@ -1,13 +1,8 @@
-import faker from 'faker';
-
-const CommentDetail = ({ author, date, text }) => {
-    const avatar = faker.image.people();
-    const avatarAlt = 'http://placeimg.com/480/480/people';
-
+const CommentDetail = ({ author, date, text, avatar }) => {
     return (
         <>
             <a href="/" className="avatar">
-                <img src={avatarAlt} alt="avatar" />
+                <img src={avatar} alt="avatar" />
             </a>
             <div className="content">
                 <a href="/" className="author">{author}</a>
