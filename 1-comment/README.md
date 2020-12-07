@@ -15,3 +15,7 @@
 
 - `npm i semantic-ui-css-offline`
 - `npm i faker`
+
+## Deploy
+
+live link: `http://arifpro.github.io/Modern-React-with-Redux/1-comment/build/`
