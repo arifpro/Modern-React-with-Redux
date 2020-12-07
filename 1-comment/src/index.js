@@ -5,6 +5,7 @@ import faker from 'faker';
 
 // component
 import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard';
 
 const App = () => {
     const avatar = faker.image.people();
@@ -13,56 +14,68 @@ const App = () => {
         <div style={{margin: '100px'}} className="ui minimal comments">
             <h3 className="ui dividing header">Comments</h3>
             <div className="comment">
-                <CommentDetail
-                    author='Matt'
-                    date='Today at 5:42PM'
-                    text='How artistic!'
-                    avatar={avatarAlt}
-                />
+                <ApprovalCard>
+                    <CommentDetail
+                        author='Matt'
+                        date='Today at 5:42PM'
+                        text='How artistic!'
+                        avatar={avatarAlt}
+                    />
+                </ApprovalCard>
             </div>
             
             <div className="comment">
-                <CommentDetail
-                    author='Elliot Fu'
-                    date='Yesterday at 12:30AM'
-                    text='This has been very useful for my research. Thanks as well!'
-                    avatar={avatarAlt}
-                />
-                <div className="comments">
+                <ApprovalCard>
+                    <CommentDetail
+                        author='Elliot Fu'
+                        date='Yesterday at 12:30AM'
+                        text='This has been very useful for my research. Thanks as well!'
+                        avatar={avatarAlt}
+                    />
+                </ApprovalCard>
+                <div style={{marginLeft: '50px'}} className="comments">
                     <div className="comment">
-                        <CommentDetail
-                            author='Jenny Hess'
-                            date='Just now'
-                            text='Elliot you are always so right :)'
-                            avatar={avatarAlt}
-                        />
+                        <ApprovalCard>
+                            <CommentDetail
+                                author='Jenny Hess'
+                                date='Just now'
+                                text='Elliot you are always so right :)'
+                                avatar={avatarAlt}
+                            />
+                        </ApprovalCard>
                     </div>
                 </div>
             </div>
 
             <div className="comment">
-                <CommentDetail
-                    author='Elliot Fu'
-                    date='Yesterday at 12:30AM'
-                    text='This has been very useful for my research. Thanks as well!'
-                    avatar={avatarAlt}
-                />
-                <div className="comments">
+                <ApprovalCard>
+                    <CommentDetail
+                        author='Elliot Fu'
+                        date='Yesterday at 12:30AM'
+                        text='This has been very useful for my research. Thanks as well!'
+                        avatar={avatarAlt}
+                    />
+                </ApprovalCard>
+                <div style={{marginLeft: '50px'}} className="comments">
                     <div className="comment">
-                        <CommentDetail
-                            author='Jenny Hess'
-                            date='Just now'
-                            text='Elliot you are always so right :)'
-                            avatar={avatarAlt}
-                        />
-                        <div className="comments">
+                        <ApprovalCard>
+                            <CommentDetail
+                                author='Jenny Hess'
+                                date='Just now'
+                                text='Elliot you are always so right :)'
+                                avatar={avatarAlt}
+                            />
+                        </ApprovalCard>
+                        <div style={{marginLeft: '50px'}} className="comments">
                             <div className="comment">
-                                <CommentDetail
-                                    author='Joe Henderson'
-                                    date='5 days ago'
-                                    text='Dude, this is awesome. Thanks so much'
-                                    avatar={avatarAlt}
-                                />
+                                <ApprovalCard>
+                                    <CommentDetail
+                                        author='Joe Henderson'
+                                        date='5 days ago'
+                                        text='Dude, this is awesome. Thanks so much'
+                                        avatar={avatarAlt}
+                                    />
+                                </ApprovalCard>
                             </div>
                         </div>
                     </div>
@@ -70,12 +83,14 @@ const App = () => {
             </div>
             
             <div className="comment">
-                <CommentDetail
-                    author='Joe Henderson'
-                    date='5 days ago'
-                    text='Dude, this is awesome. Thanks so much'
-                    avatar={avatarAlt}
-                />
+                <ApprovalCard>
+                    <CommentDetail
+                        author='Joe Henderson'
+                        date='5 days ago'
+                        text='Dude, this is awesome. Thanks so much'
+                        avatar={avatarAlt}
+                    />
+                </ApprovalCard>
             </div>
             <form className="ui reply form">
                 <div className="field">
