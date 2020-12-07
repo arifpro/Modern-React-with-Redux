@@ -1,5 +1,6 @@
 {
   "name": "1-comment",
+  "homepage": "http://arifpro.github.io/Modern-React-with-Redux/1-comment/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
