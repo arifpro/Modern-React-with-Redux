@@ -8,10 +8,10 @@ import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 
 const App = () => {
-    const avatar = faker.image.people();
-    const avatarAlt = 'http://placeimg.com/480/480/people';
-    const pic = 'https://source.unsplash.com/random';
-    
+    // const avatar = faker.image.image();
+    // const avatarAlt = 'http://placeimg.com/480/480/people';
+    // const pic = 'https://source.unsplash.com/random';
+
     return (
         <div style={{margin: '100px'}} className="ui minimal comments">
             <h3 className="ui dividing header">Comments</h3>
@@ -21,7 +21,7 @@ const App = () => {
                         author='Matt'
                         date='Today at 5:42PM'
                         text='How artistic!'
-                        avatar={avatarAlt}
+                        avatar={faker.image.image()}
                     />
                 </ApprovalCard>
             </div>
@@ -32,7 +32,7 @@ const App = () => {
                         author='Elliot Fu'
                         date='Yesterday at 12:30AM'
                         text='This has been very useful for my research. Thanks as well!'
-                        avatar={avatarAlt}
+                        avatar={faker.image.image()}
                     />
                 </ApprovalCard>
                 <div style={{marginLeft: '50px'}} className="comments">
@@ -42,7 +42,7 @@ const App = () => {
                                 author='Jenny Hess'
                                 date='Just now'
                                 text='Elliot you are always so right :)'
-                                avatar={avatarAlt}
+                                avatar={faker.image.image()}
                             />
                         </ApprovalCard>
                     </div>
@@ -55,7 +55,7 @@ const App = () => {
                         author='Elliot Fu'
                         date='Yesterday at 12:30AM'
                         text='This has been very useful for my research. Thanks as well!'
-                        avatar={avatarAlt}
+                        avatar={faker.image.image()}
                     />
                 </ApprovalCard>
                 <div style={{marginLeft: '50px'}} className="comments">
@@ -65,7 +65,7 @@ const App = () => {
                                 author='Jenny Hess'
                                 date='Just now'
                                 text='Elliot you are always so right :)'
-                                avatar={avatarAlt}
+                                avatar={faker.image.image()}
                             />
                         </ApprovalCard>
                         <div style={{marginLeft: '50px'}} className="comments">
@@ -75,7 +75,7 @@ const App = () => {
                                         author='Joe Henderson'
                                         date='5 days ago'
                                         text='Dude, this is awesome. Thanks so much'
-                                        avatar={avatarAlt}
+                                        avatar={faker.image.image()}
                                     />
                                 </ApprovalCard>
                             </div>
@@ -90,7 +90,7 @@ const App = () => {
                         author='Joe Henderson'
                         date='5 days ago'
                         text='Dude, this is awesome. Thanks so much'
-                        avatar={avatarAlt}
+                        avatar={faker.image.image()}
                     />
                 </ApprovalCard>
             </div>
