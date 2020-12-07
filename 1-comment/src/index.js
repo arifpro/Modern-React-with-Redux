@@ -1,37 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'semantic-ui-css-offline';
-import faker from 'faker';
 
-const CommentDetail = ({ author, date, text }) => {
-    const avatar = faker.image.people();
-    const avatarAlt = 'http://placeimg.com/480/480/people';
+// component
+import CommentDetail from './CommentDetail';
 
-    return (
-        <>
-            <a href="/" className="avatar">
-                <img src={avatarAlt} alt="avatar" />
-            </a>
-            <div className="content">
-                <a href="/" className="author">{author}</a>
-                <div className="metadata">
-                    <span className="date">{date}</span>
-                </div>
-                <div className="text">
-                    <p>{text}</p>
-                </div>
-                <div className="actions">
-                    <a href="/" className="reply">Reply</a>
-                </div>
-            </div>
-        </>
-    );
-};
+
 
 const App = () => {
-    const avatar = faker.image.people();
-    const avatarAlt = 'http://placeimg.com/480/480/people';
-
     return (
         <div style={{margin: '100px'}} className="ui minimal comments">
             <h3 className="ui dividing header">Comments</h3>
