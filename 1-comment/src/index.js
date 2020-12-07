@@ -10,6 +10,8 @@ import ApprovalCard from './ApprovalCard';
 const App = () => {
     const avatar = faker.image.people();
     const avatarAlt = 'http://placeimg.com/480/480/people';
+    const pic = 'https://source.unsplash.com/random';
+    
     return (
         <div style={{margin: '100px'}} className="ui minimal comments">
             <h3 className="ui dividing header">Comments</h3>
