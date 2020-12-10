@@ -28,8 +28,8 @@ live link: `http://arifpro.github.io/Modern-React-with-Redux/2-seasons/build/`
 
 - constructor
 - render
-- componentDidMount (Content visible on screen)
-- componentDidUpdate (Sit and wait for updates)
+- componentDidMount (Content visible on screen) `useEffect(() => {}, []);`
+- componentDidUpdate (Sit and wait for updates) `useEffect(() => {});`
 - componentWillUnmount (Sit and wait until this component is not longer shown)
 
 ### useEffect(() => {}, [])
