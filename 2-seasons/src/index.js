@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
+import SeasonDisplay from './components/SeasonDisplay';
 
 const App = () => {
     const [location, setLocation] = useState({
@@ -8,13 +9,15 @@ const App = () => {
     });
     const [errorMessage, setErrorMessage] = useState('');
 
-    window.navigator.geolocation.getCurrentPosition(
-        position => setLocation({
-            lat: position.coords.latitude,
-            long: position.coords.longitude
-        }),
-        err => setErrorMessage(err.message)
-    );
+    useEffect(() => {
+        window.navigator.geolocation.getCurrentPosition(
+            position => setLocation({
+                lat: position.coords.latitude,
+                long: position.coords.longitude
+            }),
+            err => setErrorMessage(err.message)
+        );
+    });
 
     return (
         <div>
@@ -23,10 +26,7 @@ const App = () => {
                 errorMessage && !location.lat ?
                     <h1>Error: {errorMessage}</h1>
                 : !errorMessage && location.lat ?
-                    <div>
-                        <h1>Latitude: {location.lat}</h1>
-                        <h1>Longitude: {location.long}</h1>
-                    </div>
+                    <SeasonDisplay lat={location.lat} long={location.long} />
                 :
                     <h1>Loading...</h1>
             }
