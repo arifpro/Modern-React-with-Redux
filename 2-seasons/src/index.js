@@ -23,7 +23,7 @@ const App = () => {
                 : !errorMessage && latitude ?
                     <SeasonDisplay latitude={latitude} />
                 :
-                    <Spinner />
+                    <Spinner message='Please accept location request.' />
             }
         </div>
     );
