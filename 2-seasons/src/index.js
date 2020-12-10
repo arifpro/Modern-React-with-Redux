@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './components/SeasonDisplay';
+import Spinner from './components/Spinner';
 
 const App = () => {
     const [latitude, setLatitude] = useState(null);
@@ -22,7 +23,7 @@ const App = () => {
                 : !errorMessage && latitude ?
                     <SeasonDisplay latitude={latitude} />
                 :
-                    <h1>Loading...</h1>
+                    <Spinner />
             }
         </div>
     );
