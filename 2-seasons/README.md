@@ -22,7 +22,7 @@
 
 ## Deploy
 
-live link: [click here](https://arifpro.github.io/Modern-React-with-Redux/2-seasons/build) or use this link `https://arifpro.github.io/Modern-React-with-Redux/2-seasons/build`
+**live link:** [click here](https://arifpro.github.io/Modern-React-with-Redux/2-seasons/build) or use this link `https://arifpro.github.io/Modern-React-with-Redux/2-seasons/build`
 
 ## Lifecycle (Class Component)
 

@@ -20,4 +20,4 @@
 
 ## Deploy
 
-live link: [click here](https://arifpro.github.io/Modern-React-with-Redux/3-pictures/build) or use this link `https://arifpro.github.io/Modern-React-with-Redux/3-pictures/build`
+**live link:** [click here](https://arifpro.github.io/Modern-React-with-Redux/3-pictures/build) or use this link `https://arifpro.github.io/Modern-React-with-Redux/3-pictures/build`

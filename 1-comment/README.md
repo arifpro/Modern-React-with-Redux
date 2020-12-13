@@ -18,4 +18,4 @@
 
 ## Deploy
 
-live link: `http://arifpro.github.io/Modern-React-with-Redux/1-comment/build/`
+**live link:** [click here](https://arifpro.github.io/Modern-React-with-Redux/1-comment/build) or use this link `https://arifpro.github.io/Modern-React-with-Redux/1-comment/build`
