@@ -1,5 +1,6 @@
 {
   "name": "3-pictures",
+  "homepage": "http://arifweb.me/Modern-React-with-Redux/3-pictures/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

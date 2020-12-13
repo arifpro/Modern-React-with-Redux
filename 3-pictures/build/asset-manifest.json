@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.649ad408.chunk.js",
-    "main.js.map": "/static/js/main.649ad408.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.35a2a3ab.js",
-    "runtime-main.js.map": "/static/js/runtime-main.35a2a3ab.js.map",
-    "static/js/2.71637a62.chunk.js": "/static/js/2.71637a62.chunk.js",
-    "static/js/2.71637a62.chunk.js.map": "/static/js/2.71637a62.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.71637a62.chunk.js.LICENSE.txt": "/static/js/2.71637a62.chunk.js.LICENSE.txt"
+    "main.js": "/Modern-React-with-Redux/3-pictures/build/static/js/main.649ad408.chunk.js",
+    "main.js.map": "/Modern-React-with-Redux/3-pictures/build/static/js/main.649ad408.chunk.js.map",
+    "runtime-main.js": "/Modern-React-with-Redux/3-pictures/build/static/js/runtime-main.f4a4c626.js",
+    "runtime-main.js.map": "/Modern-React-with-Redux/3-pictures/build/static/js/runtime-main.f4a4c626.js.map",
+    "static/js/2.71637a62.chunk.js": "/Modern-React-with-Redux/3-pictures/build/static/js/2.71637a62.chunk.js",
+    "static/js/2.71637a62.chunk.js.map": "/Modern-React-with-Redux/3-pictures/build/static/js/2.71637a62.chunk.js.map",
+    "index.html": "/Modern-React-with-Redux/3-pictures/build/index.html",
+    "static/js/2.71637a62.chunk.js.LICENSE.txt": "/Modern-React-with-Redux/3-pictures/build/static/js/2.71637a62.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.35a2a3ab.js",
+    "static/js/runtime-main.f4a4c626.js",
     "static/js/2.71637a62.chunk.js",
     "static/js/main.649ad408.chunk.js"
   ]
