@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
 
-// styles
-import useStyles from './stylesSearchBar';
-
-const SearchBar = () => {
-    const styles = useStyles();
+const SearchBar = ({ onSubmit }) => {
     const [searchText, setSearchText] = useState('');
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-
-        console.log(searchText);
+        onSubmit(searchText);
     };
 
     return (
