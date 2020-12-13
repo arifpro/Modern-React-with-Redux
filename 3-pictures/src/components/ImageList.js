@@ -11,13 +11,8 @@ const ImageList = ({ images }) => {
         <div className={styles.imageList}>
             {
                 images.map(({ id, urls, alt_description }) => (
-                    // <img
-                    //     className={styles.image}
-                    //     key={id}
-                    //     src={urls.regular}
-                    //     alt={alt_description}
-                    // />
                     <ImageCard
+                        style={styles.image}
                         key={id}
                         urls={urls.regular}
                         alt_description={alt_description}

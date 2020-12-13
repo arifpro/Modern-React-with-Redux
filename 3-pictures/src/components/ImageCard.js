@@ -1,19 +1,24 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
-const ImageCard = ({ id, urls, alt_description }) => {
+const ImageCard = ({ style, urls, alt_description }) => {
     const imageRef = useRef();
+    const [spans, setSpans] = useState(0);
 
     useEffect(() => {
-        imageRef.current.addEventListener('load', setSpans);
+        imageRef.current.addEventListener('load', () => {
+            const height = imageRef.current.clientHeight;
+            setSpans(Math.ceil(height / 10))
+        });
     }, []);
 
-    const setSpans = () => {
-        console.log(imageRef.current.clientHeight);
-    };
-
     return (
-        <div>
-            <img ref={imageRef} src={urls} alt={alt_description} />
+        <div style={{ gridRowEnd: `span ${spans}`}}>
+            <img
+                className={style}
+                ref={imageRef}
+                src={urls}
+                alt={alt_description}
+            />
         </div>
     );
 };
