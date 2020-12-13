@@ -5,8 +5,12 @@ const ImageList = ({ images }) => {
     return (
         <div>
             {
-                images.map(image => (
-                    <img key={image.id} src={image.urls.regular} alt={image.alt_description} />
+                images.map(({ id, urls, alt_description }) => (
+                    <img
+                        key={id}
+                        src={urls.regular}
+                        alt={alt_description}
+                    />
                 ))
             }
         </div>
