@@ -19,7 +19,7 @@ const SearchBar = (props) => {
                         onChange={e => setSearchText(e.target.value)}
                     />
                 </div>
-            </form>            
+            </form>
         </div>
     )
 }

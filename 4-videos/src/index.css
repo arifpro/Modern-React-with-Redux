@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.videoDiv {
+  width: 95%;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.listDiv {
+  width: 95%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+.mainDiv {
+  margin-left: 0.01rem !important;
+}
+
+@media only screen and (min-width: 991px) {
+  .videoDiv {
+    width: 69%;
+  }
+  
+  .listDiv {
+    width: 29%;
+  }
+
+  .mainDiv {
+    margin-left: 0.1rem !important;
+  }
+}
