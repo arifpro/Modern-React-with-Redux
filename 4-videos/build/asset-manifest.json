@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Modern-React-with-Redux/4-videos/build/static/css/main.f4e7d005.chunk.css",
+    "main.js": "/Modern-React-with-Redux/4-videos/build/static/js/main.ad29cfc6.chunk.js",
+    "main.js.map": "/Modern-React-with-Redux/4-videos/build/static/js/main.ad29cfc6.chunk.js.map",
+    "runtime-main.js": "/Modern-React-with-Redux/4-videos/build/static/js/runtime-main.6a0ab719.js",
+    "runtime-main.js.map": "/Modern-React-with-Redux/4-videos/build/static/js/runtime-main.6a0ab719.js.map",
+    "static/js/2.374270d7.chunk.js": "/Modern-React-with-Redux/4-videos/build/static/js/2.374270d7.chunk.js",
+    "static/js/2.374270d7.chunk.js.map": "/Modern-React-with-Redux/4-videos/build/static/js/2.374270d7.chunk.js.map",
+    "index.html": "/Modern-React-with-Redux/4-videos/build/index.html",
+    "static/css/main.f4e7d005.chunk.css.map": "/Modern-React-with-Redux/4-videos/build/static/css/main.f4e7d005.chunk.css.map",
+    "static/js/2.374270d7.chunk.js.LICENSE.txt": "/Modern-React-with-Redux/4-videos/build/static/js/2.374270d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a0ab719.js",
+    "static/js/2.374270d7.chunk.js",
+    "static/css/main.f4e7d005.chunk.css",
+    "static/js/main.ad29cfc6.chunk.js"
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "name": "4-videos",
+  "homepage": "http://arifpro.github.io/Modern-React-with-Redux/4-videos/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
