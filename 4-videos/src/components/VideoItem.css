@@ -3,6 +3,6 @@
     align-items: center !important;
     cursor: pointer;
 }
-.video-item img {
+.video-item.item img {
     max-width: 180px;
 }
