@@ -15,13 +15,12 @@ const App = () => {
       }
     })
     setVideos(response.data.items)
+    setSelectedVideo(response.data.items[0])
   }
 
   const onVideoSelect = video => {
     setSelectedVideo(video)
   }
-
-  // console.log(selectedVideo)
 
   return (
     <div>

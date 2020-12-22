@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const SearchBar = (props) => {
     const [searchText, setSearchText] = useState('')
@@ -6,6 +6,10 @@ const SearchBar = (props) => {
     const onFormSubmit = event => {
         event.preventDefault()
         props.onFormSubmit(searchText)
+        
+        // setTimeout(() => {
+            setSearchText('')
+        // }, 5000)
     }
 
     return (
